@@ -1,0 +1,53 @@
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+li a {
+    height: 30rem;
+    width: 20rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: red;
+    margin-bottom: 1rem; /* Eklenen kısım: Resimlerin altında 1rem boşluk bırakır */
+    text-align: center; /* Eklenen kısım: Metinleri merkeze hizalar */
+}
+
+li a img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+li .content {
+    padding: 0.5rem; /* Eklenen kısım: İçerik bölümüne biraz boşluk ekler */
+}
+
+li .name {
+    font-weight: bold; /* Eklenen kısım: Başlık metnine kalın font uygular */
+}
+
+li a:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+
+.content{
+    padding: .5rem 1rem;
+    position: relative;
+}
+
+
+
+
