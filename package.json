@@ -21,7 +21,7 @@
     "git": "^0.1.5",
     "rxjs": "~7.8.1",
     "tslib": "^2.6.0",
-    "zone.js": "~0.13.1"
+    "zone.js": "~0.13.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^16.1.3",
